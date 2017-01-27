@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         let vc = ViewController()
-        print(vc.averageIsAbove75(a: 55, b: 25, c: 24))
-        print(vc.averageIsAbove75(a: 100, b: 85, c: 90))
+        print(vc.averageIsAbove(a: 55, b: 25, c: 24))
+        print(vc.averageIsAbove(a: 100, b: 85, c: 90))
         
         print(vc.passwordCombo(username: "Bran", password: 22))
         
@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print(vc.describe(emoji: "🍕"))
         print(vc.describe(emoji: "a"))
         print(vc.describe(emoji: "🐢"))
-        print(vc.describe(emoji: "👻")) 
+        print(vc.describe(emoji: "👻"))
         
         return true
     }

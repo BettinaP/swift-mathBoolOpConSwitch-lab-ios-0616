@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     // Implement your functions here!
     
-    func averageIsAbove75( a: Double, b: Double, c: Double) -> Bool
+    func averageIsAbove( a: Double, b: Double, c: Double) -> Bool
     {
         let x = (a + b + c)/3.0
         
