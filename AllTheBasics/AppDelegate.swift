@@ -16,6 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        let vc = ViewController()
+        print(vc.averageIsAbove75(a: 55, b: 25, c: 24))
+        print(vc.averageIsAbove75(a: 100, b: 85, c: 90))
+        
+        print(vc.passwordCombo(username: "Bran", password: 22))
+        
+        print(vc.passwordCombo(username: "Elaine", password: 20))
+        
+        print(vc.passwordCombo(username: "Elaine", password: 33))
+        
+        print(vc.describe(emoji: "💋"))
+        print(vc.describe(emoji: "🐈"))
+        print(vc.describe(emoji: "🍕"))
+        print(vc.describe(emoji: "a"))
+        print(vc.describe(emoji: "🐢"))
+        print(vc.describe(emoji: "👻")) 
+        
         return true
     }
 
